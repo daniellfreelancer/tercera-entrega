@@ -166,7 +166,12 @@ main div .img-historia {
 main div .texto-historia p {
   text-align: justify;
 }
-
+main section .contenido-noticias {
+    justify-content: center;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    flex-wrap: wrap;
+}
 main section .lista-de-productos {
   text-align: center;
   background-color: rgba(169, 246, 131, 0.35);
