@@ -1,0 +1,208 @@
+/*Paleta de colores
+--fire-opal: #ee6055ff;
+--medium-aquamarine: #60d394ff;
+--mint-green: #aaf683ff;
+--orange-yellow-crayola: #ffd97dff;
+--vivid-tangerine: #ff9b85ff; */
+/*Fuente para textos
+Verdana, Geneva, Tahoma, sans-serif
+
+Fuente para titulos
+'Ubuntu', sans-serif*/
+body {
+  background-image: url(../img/mosaicoBody.png);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header nav div a .titulo-web {
+  font-size: 45px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header nav div ul .boton-menu {
+  padding: 0px 10px;
+  background-color: #60d394ff;
+  margin: 10px 10px;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+}
+
+.header nav div ul .boton-menu:hover {
+  background-color: rgba(96, 211, 148, 0.35);
+}
+
+.header nav a .img-menu {
+  width: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+}
+
+.header nav a .img-menu:hover {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.titulo-recetario-contacto {
+  background-color: rgba(255, 155, 133, 0.35);
+  text-align: center;
+  margin: 5px;
+}
+
+.titulo-recetario-recetas {
+  background-color: rgba(96, 211, 148, 0.35);
+  text-align: center;
+  margin: 5px;
+}
+
+.titulo-canal {
+  background-color: rgba(238, 95, 85, 0.35);
+  text-align: center;
+  margin: 5px;
+}
+
+.titulo-yt {
+  background-color: rgba(255, 216, 125, 0.35);
+}
+
+.titulo-yt .titulo {
+  text-align: center;
+  margin: 5px;
+}
+
+.main-area section .galeria {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 5px 5px;
+  margin: 10px 30px;
+  grid-auto-flow: dense;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-area section div a {
+  text-align: center;
+}
+
+.main-area section div .contenido-recetas .titulos-recetas-opal {
+  background-color: rgba(238, 95, 85, 0.35);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.main-area section div .contenido-recetas .titulos-recetas-aqua {
+  background-color: rgba(96, 211, 148, 0.35);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.main-area section div .contenido-recetas .titulos-recetas-mint {
+  background-color: rgba(169, 246, 131, 0.35);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.main-area section div .contenido-recetas .titulos-recetas-crayola {
+  background-color: rgba(255, 216, 125, 0.35);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.main-area section div .contenido-recetas .titulos-recetas-vivid {
+  background-color: rgba(255, 155, 133, 0.35);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.main-area section div .contenido-recetas:hover {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+section .proximas-recetas {
+  padding: 10px 10px;
+}
+
+section #btn-recetas {
+  background-color: rgba(96, 211, 148, 0.35);
+}
+
+main div .img-historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 100%;
+}
+
+main div .texto-historia p {
+  text-align: justify;
+}
+
+main section .lista-de-productos {
+  text-align: center;
+  background-color: rgba(169, 246, 131, 0.35);
+}
+
+main section .productos-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.canal-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+footer .advertencia {
+  font-style: italic;
+}
+
+footer div div p .advertencia {
+  font-style: italic;
+}
+/*# sourceMappingURL=styles.css.map */
